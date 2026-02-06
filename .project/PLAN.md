@@ -1,12 +1,12 @@
 # Delivery Plan — Todo Monorepo Application
 
-## Phase 1: Project Initialization [⚙️ IN PROGRESS]
+## Phase 1: Project Initialization [✅ COMPLETE]
 - Create .project documentation (PRD, Architecture, Plan, Tasks, Progress).
 - Align on scope, architecture, and delivery approach.
 - Entry: Project brief received.
 - Exit: Docs committed & pushed, Boss approval requested via OpenClaw.
 
-## Phase 2: Foundation (Backend & Shared Packages) [⏳ NOT STARTED]
+## Phase 2: Foundation (Backend & Shared Packages) [⚙️ IN PROGRESS]
 - Implement pnpm workspace scaffolding, shared TS configs, types package, and API client skeleton.
 - Build Hono backend scaffolding: server bootstrap, routes, SQLite migrations, CRUD logic.
 - Entry: Boss approval post Phase 1.
