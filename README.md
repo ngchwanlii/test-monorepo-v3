@@ -13,6 +13,8 @@ pnpm dev
 
 `pnpm dev` runs the backend (port 3001) and the placeholder web app concurrently. Mobile remains a stub until Phase 3.
 
+The root `postinstall` hook automatically builds the shared `@test-monorepo/types` and `@test-monorepo/api-client` packages so a clean clone can jump straight to `pnpm dev`. Turbo's `dev` pipeline now also runs the shared package watchers when you run `pnpm dev`, keeping their `dist` outputs up to date while backend or web dev servers run.
+
 ### Useful Scripts
 
 | Command | Description |

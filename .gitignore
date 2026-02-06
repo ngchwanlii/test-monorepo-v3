@@ -9,3 +9,5 @@ apps/backend/data/*.sqlite
 apps/backend/.drizzle
 coverage
 .turbo
+**/dist
+**/*.tsbuildinfo

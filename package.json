@@ -8,6 +8,8 @@
     "node": ">=18.18.0"
   },
   "scripts": {
+    "postinstall": "pnpm run build:shared",
+    "build:shared": "pnpm --filter @test-monorepo/types run build && pnpm --filter @test-monorepo/api-client run build",
     "dev": "turbo run dev --parallel --filter=@test-monorepo/backend --filter=@test-monorepo/web",
     "lint": "turbo run lint",
     "test": "turbo run test",
