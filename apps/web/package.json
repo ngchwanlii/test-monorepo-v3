@@ -1,0 +1,11 @@
+{
+  "name": "@test-monorepo/web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "lint": "echo 'web lint placeholder'",
+    "test": "echo 'web tests pending'"
+  }
+}

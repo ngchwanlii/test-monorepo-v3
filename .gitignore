@@ -1,2 +1,13 @@
-node_modules/
-.codex/
+node_modules
+.tmp
+.DS_Store
+.env
+.env.*
+!**/.env.example
+apps/backend/data/*.db
+apps/backend/data/*.sqlite
+apps/backend/.drizzle
+coverage
+.turbo
+**/dist
+**/*.tsbuildinfo
