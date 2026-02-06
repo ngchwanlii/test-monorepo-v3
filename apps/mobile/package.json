@@ -1,0 +1,11 @@
+{
+  "name": "@test-monorepo/mobile",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'mobile dev placeholder'",
+    "lint": "echo 'mobile lint placeholder'",
+    "test": "echo 'mobile tests pending'"
+  }
+}

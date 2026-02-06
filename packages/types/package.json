@@ -1,0 +1,28 @@
+{
+  "name": "@test-monorepo/types",
+  "version": "0.1.0",
+  "description": "Shared domain types and schemas for the Todo application",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "test": "vitest run",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "target": "ES2022"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["tests"]
+}

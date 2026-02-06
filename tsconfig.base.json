@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noUncheckedIndexedAccess": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitOverride": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@types/*": ["packages/types/src/*"],
+      "@api-client/*": ["packages/api-client/src/*"],
+      "@backend/*": ["apps/backend/src/*"],
+      "@web/*": ["apps/web/src/*"],
+      "@mobile/*": ["apps/mobile/src/*"]
+    }
+  }
+}
